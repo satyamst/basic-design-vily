@@ -49,7 +49,7 @@ li {
 .banner1 {
 height: 500px;
 max-width: 100%;
-background-image:url('/assets/banner-01.jpg');
+background-image:url('banner-01.jpg');
 }
 .banner1 h1 {
     /* height: 100px; */
