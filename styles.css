@@ -168,3 +168,107 @@ background-image:url('banner-01.jpg');
     
     border: 2px solid red;
 }
+.video h4{
+
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    /* justify-content: center; */
+    color: red;
+}
+.best-deal {
+    height: 500px;
+max-width: 100%;
+border: 2px solid red;
+/* background-image:url('banner-01.jpg'); */
+}
+.best-deal h4{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    justify-content: start;
+    color: red;
+}
+.best-deal h1{
+     font-size: large; 
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    text-align: center;
+    justify-content: start;
+    color: black;
+    padding: 15px;
+}
+.best-deal button {
+    font-size: large; 
+    display: flex;
+    flex-direction: column;
+    align-items: end; 
+    text-align: end;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.deal-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300;
+    width: 100%;
+}
+.center img {
+    height: inherit;
+    width: 300px;
+    border: 2px solid red;
+}
+.left {
+    
+        height: inherit;
+        width: 200px;
+        border: 2px solid red;
+}
+.right {
+    /* display: flex;
+    align-items: center; */
+
+    height: inherit;
+    width: 200px;
+    border: 2px solid red;
+}
+
+.PROPERTIES{
+    height: 500px;
+    max-width: 100%;
+    border: 2px solid red;
+
+}
+.PROPERTIES h4{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    text-align: center;
+    justify-content: start;
+    color: red;
+}
+.contact{
+    height: 500px;
+    max-width: 100%;
+    border: 2px solid red;
+}
+footer{
+    display: flex;
+    height: 50px;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+}
