@@ -159,14 +159,15 @@ background-image:url('banner-01.jpg');
     height: 100px;
     width: 100%;
     /* box-shadow: 10px 10px 5px lightblue; */
-     border: 2px solid red; 
+     /* border: 2px solid red;  */
 }
 .video{
-    height: 400px;
+    /* background-image:video-bg.jpg; */
+    height: 500px;
     max-width: 100%;
     text-align: center;
-    
-    border: 2px solid red;
+    background-image:url('assets/video-bg.jpg');
+    /* border: 2px solid red; */
 }
 .video h4{
 
@@ -178,27 +179,45 @@ background-image:url('banner-01.jpg');
     /* justify-content: center; */
     color: red;
 }
+#video-img{
+    height: 50px;
+    max-width: 100%;
+    opacity: 1;
+    /* border: 2px solid red; */
+}
+
+#fram{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 30%;
+}
+
 .best-deal {
-    height: 500px;
+ height: 600px;
 max-width: 100%;
-border: 2px solid red;
+/* border: 2px solid red; */
 /* background-image:url('banner-01.jpg'); */
 }
-.best-deal h4{
+.best-deal h4 {
     font-size: medium;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: start; 
     text-align: center;
     justify-content: start;
     color: red;
 }
 .best-deal h1{
-     font-size: large; 
+    font-size: 200%; 
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: start; 
-    text-align: center;
+    text-align: start;
     justify-content: start;
     color: black;
     padding: 15px;
@@ -221,16 +240,36 @@ border: 2px solid red;
     height: 300;
     width: 100%;
 }
+.button{
+    margin-left: auto;
+    height: 10px;
+    max-width: 500px;
+    /* box-sizing: border-box; */
+    /* border-radius: 50%; */
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    /* height: 10px;
+    width: 15px; */
+    /* background-color: black; */
+    color: white;
+}
+.button :hover{
+    background-color: #ffa600e9;
+}
 .center img {
-    height: inherit;
-    width: 300px;
-    border: 2px solid red;
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    /* border: 2px solid red; */
 }
 .left {
     
         height: inherit;
         width: 200px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
 }
 .right {
     /* display: flex;
@@ -259,7 +298,7 @@ border: 2px solid red;
 .contact{
     height: 500px;
     max-width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 footer{
     display: flex;
@@ -267,7 +306,7 @@ footer{
     max-width: 100%;
     background-color: black;
     color: white;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     /* text-align: center; */
     justify-content: center;
